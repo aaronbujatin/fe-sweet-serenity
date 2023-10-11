@@ -10,14 +10,14 @@ import { EmeraldComponent } from './components/packages/emerald/emerald.componen
 import { GoldComponent } from './components/packages/gold/gold.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'gallery', component: GalleryComponent },
-  { path: 'package-offers', component: PackageOffersComponent },
-  { path: 'package-gold', component: GoldComponent },
-  { path: 'package-emerald', component: EmeraldComponent },
-  { path: 'package-diamond', component: DiamondComponent }
+  { path: '', component: HomeComponent, title : "Sweet Serenity" },
+  { path: 'contact', component: ContactComponent, title : "Sweet Serenity | Contact" },
+  { path: 'about', component: AboutComponent, title : "Sweet Serenity | About"},
+  { path: 'gallery', component: GalleryComponent, title : "Sweet Serenity | Gallery" },
+  { path: 'package-offers', component: PackageOffersComponent, title : "Sweet Serenity | Packge Offers" },
+  { path: 'package-gold', component: GoldComponent , title : "Sweet Serenity | Package Gold"},
+  { path: 'package-emerald', component: EmeraldComponent, title : "Sweet Serenity | package Emerald" },
+  { path: 'package-diamond', component: DiamondComponent, title : "Sweet Serenity | Package Diamond" }
 ];
 
 @NgModule({
